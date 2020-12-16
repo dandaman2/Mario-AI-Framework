@@ -35,6 +35,7 @@ public class LevelGenerator implements MarioLevelGenerator{
 	String result = "";
 	for(int i=0; i<lines.size(); i++) {
 	    result += lines.get(i) + "\n";
+		System.out.println(result);
 	}
 	return result;
     }
